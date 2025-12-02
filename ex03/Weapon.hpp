@@ -9,7 +9,7 @@ class Weapon
 
 	Weapon();
 	Weapon(std::string newType);
-	std::string	get_Type() const;
+	const std::string	&getType() const;
 	void		setType(std::string new_type);
 
 
