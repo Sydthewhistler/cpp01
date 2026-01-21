@@ -1,5 +1,8 @@
 #include "Zombie.hpp"
 
+Zombie::Zombie() {}
+
+
 void Zombie::announce( void )
 {
 	std::cout << m_name << ": BraiiiiiiinnnzzzZ..." << std::endl;
